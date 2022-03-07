@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      border: 2px solid red;
+      display: flex;
+      flex-direction: column;
+    }
+    button {
+      padding: 10px 50px;
+      border: indigo 2px solid;
+    }
+    input {
+      border: 2px solid blue;
+      min-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>javascript</h2>
+    <button>button</button>
+    <input type="text">
+  </div>
+  <script>
+    const obj = {
+      name: 'chododa', 
+      job: 'programmer'
+    }
+
+    let {name, job} = obj
+
+    console.log(name)
+    console.log(job)
+  </script>
+</body>
+</html>
